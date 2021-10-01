@@ -17,10 +17,10 @@ spec:
       labels:
         name: redis-pod
         app: demo-voting-app
-  spec:
-     containers:
-      - name: redis
-        image: redis:latest
-        ports:
-          - containerPort: 6379
+    spec:
+       containers:
+          - name: redis
+            image: redis:latest
+            ports:
+               - containerPort: 6379
        
